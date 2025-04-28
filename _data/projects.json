@@ -1,6 +1,158 @@
 {
   "projects":[
     {
+      "term": "Spring 2025",
+      "pageID": "f24-s25",
+      "projects": [
+        {
+          "title": "Post-generation ASR Hypothesis Reranking Utilizing Visual Contexts (3.0)",
+          "id": "s25_reranking",
+          "image": "/images/projects/reranking.png",
+          "leadAuthors": [
+            "Marcus Au",
+            "Tommy Shu"
+          ],
+          "authors": [
+            "Yirui Song",
+            "Zitong Huang",
+            "Catherine Lu"
+          ],
+          "description": "Speech Recognition models are capable of producing multiple transcripts. Often, the best transcript is not the one the model thinks is best, but rather a different transcript in the top-k generated transcripts. Typical approaches to re-scoring these transcripts to maximize ASR performance use language modeling. This project aims to improve the re-ranking process using an additional modality: visual input, specifically in the embodied agent domain. This work is an extension of previous work done by CAIS++ in speech recognition for embodied agents in Automatic Speech Recognition (ASR) pipeline proposed in 'Multimodal Speech Recognition for Language-Guided Embodied Agents' (Chang et al.).",
+          "poster": "https://www.canva.com/design/DAGYBaFq7QY/DY4oTWA8yqB7tdV4voyR-A/view"
+        },
+        {
+          "title": "Recovering Text from Scans of Preserved Scrolls (2.0)",
+          "id": "s25_scroll",
+          "image": "/images/projects/scroll.png",
+          "leadAuthors": [
+            "Leslie Moreno",
+            "Jaiv Doshi"
+          ],
+          "authors": [
+            "Aditya Kumar",
+            "Aryan Gulati",
+            "Allison Lim"
+          ],
+          "description": "Efforts to decode the ancient Herculaneum scrolls, preserved in the aftermath of Mount Vesuvius, have made significant strides through machine learning and computer vision, with the 2023 Vesuvius Challenge awarding over $1,000,000 for breakthroughs such as recovering Epicurean philosophy from Scroll 1. However, current ink detection methods, reliant on crackle patterns, fail to generalize to other scrolls. This project seeks to scale these techniques by leveraging unlabeled segmented data through self-supervised denoising and fine-tuning on labeled fragments, with the virtual unwrapping process—transforming 3D X-ray volumes into 2D surfaces—serving as the foundation for training models capable of generalizing across various scrolls, ultimately unlocking the hidden historical knowledge within.",
+          "slides": "https://docs.google.com/presentation/d/1XESs7UbUor657K1Vn2VflH7A8njIn1KR-nLD3RhJdYQ/edit?usp=sharing"
+        },
+        {
+          "title": "Nanopore Signal for Radiation Damage Detection (2.0)",
+          "id": "s25_nanopore",
+          "image": "/images/projects/nanopore.png",
+          "leadAuthors": [
+            "Vidur Mushran"
+          ],
+          "authors": [
+            "Mo Jiang",
+            "Pratyush Jaishanker",
+            "Ryan Nene",
+            "Vayun Mathur"
+          ],
+          "advisorAuthors": [
+            "Aram Modrek",
+            "Khoi Huynh"
+          ],
+          "description": "Assessing radiation exposure and DNA damage in human cells currently relies on methods that lack the ability to provide real-time, quantitative insights into molecular changes. Nanopore sequencing offers a promising approach by enabling high-resolution analysis of DNA and RNA structures through electrical signal detection. However, interpreting nanopore signals for radiation-induced DNA damage remains a complex and underexplored challenge. This project focuses on developing a machine learning-based model to predict radiation exposure levels and detect specific biomarkers of DNA damage, facilitating applications in precision radiotherapy dosing, exposure monitoring in space and nuclear environments, ecological assessments after nuclear incidents, and early cancer prevention through timely intervention.",
+          "slides": "https://docs.google.com/presentation/d/1uj1Pa8h4apaLThDxI4D1qUfemM8MUDOFPlAGS7FLNR8/edit?usp=sharing"
+        },
+        {
+          "title": "Fire Localization",
+          "id": "s25_fire",
+          "image": "/images/projects/fireloc.png",
+          "leadAuthors": [
+            "Maia Piechocki"
+          ],
+          "authors": [
+            "Yash Gupta",
+            "Sam Shindich",
+            "Vanya Shrivastava",
+            "Andrew Choi",
+            "Arjun Bedi"
+          ],
+          "advisorAuthors": [
+            "Barath Raghavan"
+          ],
+          "description": "Wildfires are increasingly frequent and devastating, yet current detection systems often suffer from high latency and poor coverage in remote regions. Building on the foundation of 'FireLoc: Low-Latency Multi-Modal Wildfire Geolocation' (Raghavan et al.), which demonstrated robust wildfire presence prediction in low-information environments, this project focuses on developing a full-stack pipeline for real-world deployment. The system will integrate low-power hardware installations at potential ignition sites, optimize machine learning inference for environments with limited computational resources, and implement a scalable alert system capable of rapidly notifying authorities upon fire detection. This end-to-end solution aims to enable earlier interventions, minimize wildfire spread, and protect vulnerable ecosystems and communities."
+        },
+        {
+          "title": "Quadruped Manipulation & Navigation",
+          "id": "s25_quadruped",
+          "image": "/images/projects/quad.png",
+          "leadAuthors": [
+            "Leyaa George",
+            "Kyle Macasilli-Tan"
+          ],
+          "authors": [
+            "Cole Sevier",
+            "Freddie Liang",
+            "Aidan Parris"
+          ],
+          "advisorAuthors": [
+            "Daniel Seita"
+          ],
+          "description": "Quadruped robots offer promising mobility in complex environments, but their reliance on fragile sensors and hardware leaves them vulnerable to failure. Preliminary efforts have explored multimodal sensing for cross-modal compensation in manipulation tasks and framed sensor failure correction as a reinforcement learning challenge. This project builds on that foundation by extending cross-modal compensation techniques to navigation and investigating collaborative multi-agent reinforcement learning frameworks to enhance fault tolerance. By developing resilient quadrupeds capable of adapting to sensory and hardware disruptions, this work advances reliable autonomous operation in real-world, unpredictable conditions."
+        },
+        {
+          "title": "Indexing Global Testimonies",
+          "id": "s25_testimonies",
+          "image": "/images/projects/testimonies.png",
+          "leadAuthors": [
+            "Shreeya Chand"
+          ],
+          "authors": [
+            "Sanjana Ilango",
+            "Annie Gao",
+            "Angela Zhuang",
+            "Anura Deshpande",
+            "Maddie Muller"
+          ],
+          "advisorAuthors": [
+            "Sandra Aguilar"
+          ],
+          "description": "The USC Shoah Foundation houses a vast video archive of 58,000 survivor testimonies across 42 languages, preserving the lived experiences of individuals impacted by the Holocaust and other genocides. Traditionally, indexing these testimonies—assigning terms from a curated thesaurus of 72,000 entries to one-minute video segments—has required intensive manual effort. This project aims to automate the indexing process using AI, developing models that analyze transcript data and accurately assign relevant terms to corresponding video segments. By enabling scalable, consistent tagging across the archive, this work will enhance accessibility, deepen historical scholarship, and ensure that these critical stories remain discoverable for future generations."
+        },
+        {
+          "title": "Knowledge Graphs for Story Generation",
+          "id": "s25_storygraph",
+          "image": "/images/projects/kggen.png",
+          "leadAuthors": [
+            "Alvin Tan"
+          ],
+          "authors": [
+            "Jessica Fu",
+            "Naina Panjwani",
+            "Jay Campanell",
+            "Rida Faraz",
+            "Richa Misra"
+          ],
+          "advisorAuthors": [
+            "Joel Walsh"
+          ],
+          "description": "While large language models (LLMs) have significantly advanced story generation, they often struggle with maintaining long-term coherence, character consistency, and causal structure. To address these limitations, prior work has incorporated knowledge graphs to explicitly model event sequences, entity relationships, and world-building constraints. This project explores a knowledge-graph-driven framework for interactive story generation, where an evolving knowledge graph guides narrative construction in real-time. Users can modify the graph mid-generation, enabling the story to adapt dynamically while preserving logical consistency. Beyond creative writing, this approach enables personalized and supplemental learning by allowing users—especially students—to generate stories tailored to specific educational domains, reinforcing concepts introduced in traditional curricula through narrative exploration and active engagement."
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning with Physics",
+          "id": "s25_marlphysics",
+          "image": "/images/projects/marl.png",
+          "leadAuthors": [
+            "Rajakrishnan Somou",
+            "Spencer Tran"
+          ],
+          "authors": [
+            "Justin Yang",
+            "Sascha Manalili",
+            "Michael Blumberg",
+            "Brice Patchou"
+          ],
+          "advisorAuthors": [
+            "Bernice (Bingling) Huang"
+          ],
+          "description": "Simulation-to-reality (sim-to-real) transfer remains a critical bottleneck in deploying AI systems for robotics and physical modeling. Traditional approaches often categorize physical knowledge by domain, limiting generalization across tasks. This project proposes integrating multi-agent reinforcement learning (MARL) with physics-informed constraints, organizing physical priors by underlying mathematical structures such as Differential-Algebraic Equations (DAE), Boundary-Parameterized Conditions (BPC), and Pressure-Potential-Velocity (PPV) relationships. Using fluid dynamics as an initial testbed, the project aims to develop AI agents capable of robust generalization across real-world robotic control, material simulation, and computational fluid dynamics applications, advancing the reliability and transferability of AI-driven physical systems."
+        }
+      ]
+    },
+    {
       "term":"Fall 2024",
       "pageID": "f24-s25",
       "projects": [
@@ -42,7 +194,7 @@
           "slides": "https://docs.google.com/presentation/d/1FdoH74UTjF2mAosIyXpeq5msb8jOFOvHYDtRXuXpg38/edit?usp=sharing"
         },
         {
-          "title": "Nanopore for Radiation Damage Detection",
+          "title": "Nanopore Signal for Radiation Damage Detection (1.0)",
           "id": "f24_nanopore",
           "image": "/images/projects/nanopore.png",
           "leadAuthors": [
@@ -63,7 +215,7 @@
           "slides": "https://docs.google.com/presentation/d/1uj1Pa8h4apaLThDxI4D1qUfemM8MUDOFPlAGS7FLNR8/edit?usp=sharing"
         },
         {
-          "title": "Recovering Text from Scans of Preserved Scrolls",
+          "title": "Recovering Text from Scans of Preserved Scrolls (1.0)",
           "id": "f24_scroll",
           "image": "/images/projects/scroll.png",
           "leadAuthors": [

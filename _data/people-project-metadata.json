@@ -1,4 +1,36 @@
 {
+  "s25_reranking": {
+    "displayName": "ASR Reranking (3.0)",
+    "link": "/projects/f24-s25#s25_reranking"
+  },
+  "s25_scroll": {
+    "displayName": "Preserved Scrolls (2.0)",
+    "link": "/projects/f24-s25#s25_scroll"
+  },
+  "s25_nanopore": {
+    "displayName": "Nanopore (2.0)",
+    "link": "/projects/f24-s25#s25_nanopore"
+  },
+  "s25_fire": {
+    "displayName": "Fire Localization",
+    "link": "/projects/f24-s25#s25_fire"
+  },
+  "s25_quadruped": {
+    "displayName": "Quadruped Navigation",
+    "link": "/projects/f24-s25#s25_quadruped"
+  },
+  "s25_testimonies": {
+    "displayName": "Indexing Global Testimonies",
+    "link": "/projects/f24-s25#s25_testimonies"
+  },
+  "s25_storygraph": {
+    "displayName": "Knowledge Graphs for Story Generation",
+    "link": "/projects/f24-s25#s25_storygraph"
+  },
+  "s25_marlphysics": {
+    "displayName": "Multi-Agent RL with Physics",
+    "link": "/projects/f24-s25#s25_marlphysics"
+  },
   "f24_substance": {
     "displayName": "Substance Abuse Treatment",
     "link": "/projects/f24-s25#f24_substance"
@@ -8,11 +40,11 @@
     "link": "/projects/f24-s25#f24_wellbeing"
   },
   "f24_nanopore": {
-    "displayName": "Nanopore",
+    "displayName": "Nanopore (1.0)",
     "link": "/projects/f24-s25#f24_nanopore"
   },
   "f24_scroll": {
-    "displayName": "Preserved Scrolls",
+    "displayName": "Preserved Scrolls (1.0)",
     "link": "/projects/f24-s25#f24_scroll"
   },
   "f24_misinformation": {
@@ -20,11 +52,11 @@
     "link": "/projects/f24-s25#f24_misinformation"
   },
   "f24_reranking": {
-    "displayName": "ASR Reranking",
+    "displayName": "ASR Reranking (2.0)",
     "link": "/projects/f24-s25#f24_reranking"
   },
   "f24_ear": {
-    "displayName": "Ear Disease Detection",
+    "displayName": "Ear Disease Detection (3.0)",
     "link": "/projects/f24-s25#f24_ear"
   },
   "s24_robotics": {
@@ -44,7 +76,7 @@
     "link": "/projects/f23-s24#s24_hatespeech"
   },
   "s24_reranking": {
-    "displayName": "ASR Reranking",
+    "displayName": "ASR Reranking (1.0)",
     "link": "/projects/f23-s24#s24_reranking"
   },
   "s24_llmbias": {
@@ -52,43 +84,43 @@
     "link": "/projects/f23-s24#s24_llmbias"
   },
   "s24_turbulence": {
-    "displayName": "Air Turbulence",
+    "displayName": "Air Turbulence (2.0)",
     "link": "/projects/f23-s24#s24_turbulence"
   },
   "s24_ear": {
-    "displayName": "Ear Disease Detection",
+    "displayName": "Ear Disease Detection (2.0)",
     "link": "/projects/f23-s24#s24_ear"
   },
   "s24_graph": {
-    "displayName": "Graph Signal Processing",
+    "displayName": "Graph Signal Processing (2.0)",
     "link": "/projects/f23-s24#s24_graph"
   },
   "s24_linguistics": {
-    "displayName": "Indigenous Linguistics",
+    "displayName": "Indigenous Linguistics (3.0)",
     "link": "/projects/f23-s24#s24_linguistics"
   },
   "f23_turbulence": {
-    "displayName": "Air Turbulence",
+    "displayName": "Air Turbulence (1.0)",
     "link": "/projects/f23-s24#f23_turbulence"
   },
   "f23_ear": {
-    "displayName": "Ear Disease Detection",
+    "displayName": "Ear Disease Detection (1.0)",
     "link": "/projects/f23-s24#f23_ear"
   },
   "f23_graph": {
-    "displayName": "Graph Signal Processing",
+    "displayName": "Graph Signal Processing (1.0)",
     "link": "/projects/f23-s24#f23_graph"
   },
   "f23_linguistics": {
-    "displayName": "Indigenous Linguistics",
+    "displayName": "Indigenous Linguistics (2.0)",
     "link": "/projects/f23-s24#f23_linguistics"
   },
   "s23_asr": {
-    "displayName": "Automatic Speech Recognition",
+    "displayName": "Automatic Speech Recognition (1.0)",
     "link": "/projects/f22-s23#s23_asr"
   },
   "s23_linguistics": {
-    "displayName": "Indigenous Linguistics",
+    "displayName": "Indigenous Linguistics (1.0)",
     "link": "/projects/f22-s23#s23_linguistics"
   },
   "s23_cv4qa": {
