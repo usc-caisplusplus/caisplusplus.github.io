@@ -1,6 +1,113 @@
 {
   "projects":[
     {
+      "term": "Fall 2025",
+      "pageID": "f25-s26",
+      "projects": [
+        {
+          "title": "Multimodal Dialog Act Classification",
+          "id": "f25_dialog",
+          "image": "/images/projects/dialog.png",
+          "leadAuthors": [
+            "Anura Deshpande"
+          ],
+          "authors": [
+            "Annie Gao",
+            "Samuel Shindich"
+          ],
+          "description": "Recognizing dialog acts—the functional roles speech utterances play in conversation—enables machines to understand speaker intent, which is key to supporting more natural human–computer interaction in applications from embodied AI to care settings. This project trains machine learning models on multimodal data (text, audio, video, and motion capture) to classify  utterances as dialog acts, examining how each modality contributes to Dialog Act Classification (DAC) across improvised and scripted conversations."
+        },
+        {
+          "title": "VLMs for Engagement",
+          "id": "f25_engagement",
+          "image": "/images/projects/kggen.png",
+          "leadAuthors": [
+            "Justin Yang"
+          ],
+          "authors": [
+            "Rida Faraz",
+            "Sascha Manalili",
+            "Freddie Liang"
+          ],
+          "description": "Video-understanding foundation models represent a rapidly advancing frontier, yet perceiving human behavior—particularly engagement—remains a key challenge. Backchannel behaviors, the subtle cues that signal a listener's attention and responsiveness (e.g. nodding), carry rich information about engagement but are often overlooked by current models. This project investigates which engagement-related behaviors are most challenging for these models and works toward targeted improvements in their perception of such signals."
+        },
+        {
+          "title": "Nanopore Signal for Radiation Damage Detection (3.0)",
+          "id": "f25_nanopore",
+          "image": "/images/projects/nanopore.png",
+          "leadAuthors": [
+            "Vidur Mushran"
+          ],
+          "authors": [
+            "Pratyush Jaishanker",
+            "Ryan Nene",
+            "Vayun Mathur"
+          ],
+          "advisorAuthors": [
+            "Aram Modrek",
+            "Khoi Huynh"
+          ],
+          "description": "Assessing radiation exposure and DNA damage in human cells currently relies on methods that lack the ability to provide real-time, quantitative insights into molecular changes. Nanopore sequencing offers a promising approach by enabling high-resolution analysis of DNA and RNA structures through electrical signal detection. However, interpreting nanopore signals for radiation-induced DNA damage remains a complex and underexplored challenge. This project focuses on developing a machine learning-based model to predict radiation exposure levels and detect specific biomarkers of DNA damage, facilitating applications in precision radiotherapy dosing, exposure monitoring in space and nuclear environments, ecological assessments after nuclear incidents, and early cancer prevention through timely intervention."
+        },
+        {
+          "title": "Fire Localization (2.0)",
+          "id": "f25_fire",
+          "image": "/images/projects/fireloc.png",
+          "leadAuthors": [
+            "Maia Piechocki"
+          ],
+          "authors": [
+            "Yash Gupta",
+            "Sam Shindich",
+            "Vanya Shrivastava",
+            "Andrew Choi",
+            "Arjun Bedi"
+          ],
+          "advisorAuthors": [
+            "Barath Raghavan",
+            "Xiao Fu"
+          ],
+          "description": "Wildfires are increasingly frequent and devastating, yet current detection systems often suffer from high latency and poor coverage in remote regions. Building on the foundation of 'FireLoc: Low-Latency Multi-Modal Wildfire Geolocation' (Raghavan et al.), which demonstrated robust wildfire presence prediction in low-information environments, this project focuses on developing a full-stack pipeline for real-world deployment. The system will integrate low-power hardware installations at potential ignition sites, optimize machine learning inference for environments with limited computational resources, and implement a scalable alert system capable of rapidly notifying authorities upon fire detection. This end-to-end solution aims to enable earlier interventions, minimize wildfire spread, and protect vulnerable ecosystems and communities."
+        },
+        {
+          "title": "Indexing Global Testimonies (2.0)",
+          "id": "f25_testimonies",
+          "image": "/images/projects/testimonies.png",
+          "leadAuthors": [
+            "Shreeya Chand"
+          ],
+          "authors": [
+            "Annie Gao",
+            "Angela Zhuang",
+            "Matthew Rodriguez"
+          ],
+          "advisorAuthors": [
+            "Sandra Aguilar"
+          ],
+          "description": "The USC Shoah Foundation houses a vast video archive of 58,000 survivor testimonies across 42 languages, preserving the lived experiences of individuals impacted by the Holocaust and other genocides. Traditionally, indexing these testimonies—assigning terms from a curated thesaurus of 72,000 entries to one-minute video segments—has required intensive manual effort. This project aims to automate the indexing process using AI, developing models that analyze transcript data and accurately assign relevant terms to corresponding video segments. By enabling scalable, consistent tagging across the archive, this work will enhance accessibility, deepen historical scholarship, and ensure that these critical stories remain discoverable for future generations."
+        },
+        {
+          "title": "Knowledge Graphs for Story Generation (2.0)",
+          "id": "f25_storygraph",
+          "image": "/images/projects/kggen.png",
+          "leadAuthors": [
+            "Alvin Tan"
+          ],
+          "authors": [
+            "Jessica Fu",
+            "Naina Panjwani",
+            "Jay Campanell",
+            "Rida Faraz",
+            "Richa Misra"
+          ],
+          "advisorAuthors": [
+            "Joel Walsh"
+          ],
+          "description": "While large language models (LLMs) have significantly advanced story generation, they often struggle with maintaining long-term coherence, character consistency, and causal structure. To address these limitations, prior work has incorporated knowledge graphs to explicitly model event sequences, entity relationships, and world-building constraints. This project explores a knowledge-graph-driven framework for interactive story generation, where an evolving knowledge graph guides narrative construction in real-time. Users can modify the graph mid-generation, enabling the story to adapt dynamically while preserving logical consistency. Beyond creative writing, this approach enables personalized and supplemental learning by allowing users—especially students—to generate stories tailored to specific educational domains, reinforcing concepts introduced in traditional curricula through narrative exploration and active engagement."
+        }
+      ]
+    },
+    {
       "term": "Spring 2025",
       "pageID": "f24-s25",
       "projects": [
@@ -57,7 +164,7 @@
           "slides": "https://docs.google.com/presentation/d/1uj1Pa8h4apaLThDxI4D1qUfemM8MUDOFPlAGS7FLNR8/edit?usp=sharing"
         },
         {
-          "title": "Fire Localization",
+          "title": "Fire Localization (1.0)",
           "id": "s25_fire",
           "image": "/images/projects/fireloc.png",
           "leadAuthors": [
@@ -94,7 +201,7 @@
           "description": "Quadruped robots offer promising mobility in complex environments, but their reliance on fragile sensors and hardware leaves them vulnerable to failure. Preliminary efforts have explored multimodal sensing for cross-modal compensation in manipulation tasks and framed sensor failure correction as a reinforcement learning challenge. This project builds on that foundation by extending cross-modal compensation techniques to navigation and investigating collaborative multi-agent reinforcement learning frameworks to enhance fault tolerance. By developing resilient quadrupeds capable of adapting to sensory and hardware disruptions, this work advances reliable autonomous operation in real-world, unpredictable conditions."
         },
         {
-          "title": "Indexing Global Testimonies",
+          "title": "Indexing Global Testimonies (1.0)",
           "id": "s25_testimonies",
           "image": "/images/projects/testimonies.png",
           "leadAuthors": [
@@ -113,7 +220,7 @@
           "description": "The USC Shoah Foundation houses a vast video archive of 58,000 survivor testimonies across 42 languages, preserving the lived experiences of individuals impacted by the Holocaust and other genocides. Traditionally, indexing these testimonies—assigning terms from a curated thesaurus of 72,000 entries to one-minute video segments—has required intensive manual effort. This project aims to automate the indexing process using AI, developing models that analyze transcript data and accurately assign relevant terms to corresponding video segments. By enabling scalable, consistent tagging across the archive, this work will enhance accessibility, deepen historical scholarship, and ensure that these critical stories remain discoverable for future generations."
         },
         {
-          "title": "Knowledge Graphs for Story Generation",
+          "title": "Knowledge Graphs for Story Generation (1.0)",
           "id": "s25_storygraph",
           "image": "/images/projects/kggen.png",
           "leadAuthors": [

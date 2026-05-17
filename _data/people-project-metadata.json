@@ -1,4 +1,28 @@
 {
+  "f25_dialog": {
+    "displayName": "Multimodal Dialog Act Classification",
+    "link": "/projects/f25-s26#f25_dialog"
+  },
+  "f25_engagement": {
+    "displayName": "VLMs for Engagement",
+    "link": "/projects/f25-s26#f25_engagement"
+  },
+  "f25_nanopore": {
+    "displayName": "Nanopore (3.0)",
+    "link": "/projects/f25-s26#f25_nanopore"
+  },
+  "f25_fire": {
+    "displayName": "Fire Localization (2.0)",
+    "link": "/projects/f25-s26#f25_fire"
+  },
+  "f25_testimonies": {
+    "displayName": "Indexing Global Testimonies (2.0)",
+    "link": "/projects/f25-s26#f25_testimonies"
+  },
+  "f25_storygraph": {
+    "displayName": "Knowledge Graphs for Story Generation (2.0)",
+    "link": "/projects/f25-s26#f25_storygraph"
+  },
   "s25_reranking": {
     "displayName": "ASR Reranking (3.0)",
     "link": "/projects/f24-s25#s25_reranking"
@@ -12,7 +36,7 @@
     "link": "/projects/f24-s25#s25_nanopore"
   },
   "s25_fire": {
-    "displayName": "Fire Localization",
+    "displayName": "Fire Localization (1.0)",
     "link": "/projects/f24-s25#s25_fire"
   },
   "s25_quadruped": {
@@ -20,11 +44,11 @@
     "link": "/projects/f24-s25#s25_quadruped"
   },
   "s25_testimonies": {
-    "displayName": "Indexing Global Testimonies",
+    "displayName": "Indexing Global Testimonies (1.0)",
     "link": "/projects/f24-s25#s25_testimonies"
   },
   "s25_storygraph": {
-    "displayName": "Knowledge Graphs for Story Generation",
+    "displayName": "Knowledge Graphs for Story Generation (1.0)",
     "link": "/projects/f24-s25#s25_storygraph"
   },
   "s25_marlphysics": {
