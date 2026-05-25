@@ -1,11 +1,135 @@
 {
   "projects":[
     {
+      "term": "Spring 2026",
+      "pageID": "f25-s26",
+      "projects": [
+        {
+          "title": "Shape Representation Learning with Moments",
+          "id": "s26_shape",
+          "image": "/images/projects/shape.png",
+          "leadAuthors": [
+            "Alvin Tan"
+          ],
+          "authors": [
+            "Kevin Chen",
+            "Ryan Li",
+            "Nishant Doss",
+            "Sophie Shen"
+          ],
+          "description": "Geospatial shapes vary widely in coordinate complexity, making them incompatible with standard ML models that require fixed-size inputs. Poly2Vec addresses this by encoding shapes into fixed-size vectors via a Fourier transform, but requires Delaunay triangulation as a preprocessing step. This project proposes replacing the Fourier basis with polynomial moments (ie: integrating shapes against Legendre polynomial basis functions) which admits closed-form solutions across all geometry types with no triangulation needed. We evaluate whether this alternative encoding matches or improves on Fourier-based embeddings for downstream spatial reasoning tasks.",
+          "slides": "https://docs.google.com/presentation/d/1OhmlFGYVcPbuiv3vzK-_5ljH0OE9H2xosz2t_nDrIyc/edit?usp=sharing"
+        },
+        {
+          "title": "Value of Location Data",
+          "id": "s26_location",
+          "image": "/images/projects/location.png",
+          "leadAuthors": [
+            "Daniel George"
+          ],
+          "authors": [
+            "Claire Kiekhaefer",
+            "Vanya Shrivastava",
+            "Advait Variyar"
+          ],
+          "advisorAuthors": [
+            "John Krumm"
+          ],
+          "description": "The proliferation of location-aware devices has normalized the passive collection of geospatial data, yet the downstream privacy implications remain widely underestimated. This project investigates a fundamental question: given a minimal release of location data, what can be reliably inferred about an individual? To answer, we develop an inference model that derives  latent personal attributes (ex: next-location prediction) from sparse location data.",
+          "slides": "https://docs.google.com/presentation/d/1bAZr1UpQn3TcexOIk3f0BO-HLwL9-zeDYqY_gFksGCs/edit?usp=sharing"
+        },
+        {
+          "title": "Bio-Indexing Holocaust Survivor Testimonies",
+          "id": "s26_bioindexing",
+          "image": "/images/projects/bioindexing.png",
+          "leadAuthors": [
+            "Christina Abraham",
+            "Yuhui (Ray) Zhang"
+          ],
+          "authors": [
+            "Aidan Parris",
+            "Maymoona Khan"
+          ],
+          "description": "The USC Shoah Foundation's Visual History Archive's Holocaust testimony recordings remain largely unsearchable at scale due to sparse biographical metadata. This project develops an ML pipeline to automatically extract structured biographical entities (dates, places of birth, aliases, and family members) from approximately 207 Florida Holocaust Museum video transcripts.",
+          "slides": "https://docs.google.com/presentation/d/1N2zvdJaq0xaZp2y0WfjojJtE7e4cqlH-Tzen6hXSnJU/edit?usp=sharing"
+        },
+        {
+          "title": "ShadeLA",
+          "id": "s26_shadela",
+          "image": "/images/projects/shadela.png",
+          "leadAuthors": [
+            "Jay Campanell"
+          ],
+          "authors": [
+            "Shreeya Chand",
+            "Leyaa George",
+            "Alice Jiang",
+            "Ruina Liu",
+            "Christina You"
+          ],
+          "advisorAuthors": [
+            "Bistra Dilkina"
+          ],
+          "description": "With marquee events including NCAA March Madness and the 2028 Olympics projected to draw an estimated 15 million visitors to Los Angeles, demand for urban heat mitigation infrastructure is surging. In partnership with the Los Angeles city government and various other affiliated institutions, this project aims to develop an adaptable data- and needs- driven methodology for the strategic selection of shade interventions in identified priority Los Angeles neighborhoods by leveraging geospatial analytics and optimization models.",
+          "slides": "https://docs.google.com/presentation/d/13eJL5OSZIYKhK3Iq0HXcRx0kp4iKNPrbGD2FoCwp7xw/edit?usp=sharing"
+        },
+        {
+          "title": "Multimodal Dialog Act Classification (2.0)",
+          "id": "s26_dialog",
+          "image": "/images/projects/dialog.png",
+          "leadAuthors": [
+            "Anura Deshpande"
+          ],
+          "authors": [
+            "Annie Gao",
+            "Samuel Shindich"
+          ],
+          "description": "Recognizing dialog acts—the functional roles speech utterances play in conversation—enables machines to understand speaker intent, which is key to supporting more natural human–computer interaction in applications from embodied AI to care settings. This project trains machine learning models on multimodal data (text, audio, video, and motion capture) to classify  utterances as dialog acts, examining how each modality contributes to Dialog Act Classification (DAC) across improvised and scripted conversations.",
+          "slides": "https://docs.google.com/presentation/d/1uOj-IvxBQFggKI5BRmEC0KOqkQ3eYUB_EDox38iBwQI/edit?usp=sharing"
+        },
+        {
+          "title": "VLMs for Engagement (2.0)",
+          "id": "s26_engagement",
+          "image": "/images/projects/engagement.png",
+          "leadAuthors": [
+            "Justin Yang"
+          ],
+          "authors": [
+            "Rida Faraz",
+            "Sascha Manalili",
+            "Freddie Liang"
+          ],
+          "description": "Video-understanding foundation models represent a rapidly advancing frontier, yet perceiving human behavior—particularly engagement—remains a key challenge. Backchannel behaviors, the subtle cues that signal a listener's attention and responsiveness (e.g. nodding), carry rich information about engagement but are often overlooked by current models. This project investigates which engagement-related behaviors are most challenging for these models and works toward targeted improvements in their perception of such signals.",
+          "slides": "https://docs.google.com/presentation/d/1kzd2yNmBwquDMrV_EWLwBo3A4wK9VFXJCqEJIYQjhkg/edit?usp=sharing"
+        },
+        {
+          "title": "Fire Localization (3.0)",
+          "id": "s26_fire",
+          "image": "/images/projects/fireloc.png",
+          "leadAuthors": [
+            "Yash Gupta"
+          ],
+          "authors": [
+            "Vanya Shrivastava",
+            "Angela Zhuang",
+            "Siya Ayora",
+            "Brian Shi"
+          ],
+          "advisorAuthors": [
+            "Barath Raghavan",
+            "Xiao Fu"
+          ],
+          "description": "Wildfires are increasingly frequent and devastating, yet current detection systems often suffer from high latency and poor coverage in remote regions. Building on the foundation of 'FireLoc: Low-Latency Multi-Modal Wildfire Geolocation' (Raghavan et al.), which demonstrated robust wildfire presence prediction in low-information environments, this project focuses on developing a full-stack pipeline for real-world deployment. The system will integrate low-power hardware installations at potential ignition sites, optimize machine learning inference for environments with limited computational resources, and implement a scalable alert system capable of rapidly notifying authorities upon fire detection. This end-to-end solution aims to enable earlier interventions, minimize wildfire spread, and protect vulnerable ecosystems and communities.",
+          "slides": "https://docs.google.com/presentation/d/1NwXOYAozUt-ITU0NiErN-851okLMMHZn3Az0yL-zkLA/edit?usp=sharing"
+        }
+      ]
+    },
+    {
       "term": "Fall 2025",
       "pageID": "f25-s26",
       "projects": [
         {
-          "title": "Multimodal Dialog Act Classification",
+          "title": "Multimodal Dialog Act Classification (1.0)",
           "id": "f25_dialog",
           "image": "/images/projects/dialog.png",
           "leadAuthors": [
@@ -15,10 +139,11 @@
             "Annie Gao",
             "Samuel Shindich"
           ],
-          "description": "Recognizing dialog acts—the functional roles speech utterances play in conversation—enables machines to understand speaker intent, which is key to supporting more natural human–computer interaction in applications from embodied AI to care settings. This project trains machine learning models on multimodal data (text, audio, video, and motion capture) to classify  utterances as dialog acts, examining how each modality contributes to Dialog Act Classification (DAC) across improvised and scripted conversations."
+          "description": "Recognizing dialog acts—the functional roles speech utterances play in conversation—enables machines to understand speaker intent, which is key to supporting more natural human–computer interaction in applications from embodied AI to care settings. This project trains machine learning models on multimodal data (text, audio, video, and motion capture) to classify  utterances as dialog acts, examining how each modality contributes to Dialog Act Classification (DAC) across improvised and scripted conversations.",
+          "slides": "https://docs.google.com/presentation/d/15IyU7s2J5E5B9APizml9-fOSYjJoNQOutptePb9Gex0/edit?usp=sharing"
         },
         {
-          "title": "VLMs for Engagement",
+          "title": "VLMs for Engagement (1.0)",
           "id": "f25_engagement",
           "image": "/images/projects/kggen.png",
           "leadAuthors": [
@@ -29,25 +154,8 @@
             "Sascha Manalili",
             "Freddie Liang"
           ],
-          "description": "Video-understanding foundation models represent a rapidly advancing frontier, yet perceiving human behavior—particularly engagement—remains a key challenge. Backchannel behaviors, the subtle cues that signal a listener's attention and responsiveness (e.g. nodding), carry rich information about engagement but are often overlooked by current models. This project investigates which engagement-related behaviors are most challenging for these models and works toward targeted improvements in their perception of such signals."
-        },
-        {
-          "title": "Nanopore Signal for Radiation Damage Detection (3.0)",
-          "id": "f25_nanopore",
-          "image": "/images/projects/nanopore.png",
-          "leadAuthors": [
-            "Vidur Mushran"
-          ],
-          "authors": [
-            "Pratyush Jaishanker",
-            "Ryan Nene",
-            "Vayun Mathur"
-          ],
-          "advisorAuthors": [
-            "Aram Modrek",
-            "Khoi Huynh"
-          ],
-          "description": "Assessing radiation exposure and DNA damage in human cells currently relies on methods that lack the ability to provide real-time, quantitative insights into molecular changes. Nanopore sequencing offers a promising approach by enabling high-resolution analysis of DNA and RNA structures through electrical signal detection. However, interpreting nanopore signals for radiation-induced DNA damage remains a complex and underexplored challenge. This project focuses on developing a machine learning-based model to predict radiation exposure levels and detect specific biomarkers of DNA damage, facilitating applications in precision radiotherapy dosing, exposure monitoring in space and nuclear environments, ecological assessments after nuclear incidents, and early cancer prevention through timely intervention."
+          "description": "Video-understanding foundation models represent a rapidly advancing frontier, yet perceiving human behavior—particularly engagement—remains a key challenge. Backchannel behaviors, the subtle cues that signal a listener's attention and responsiveness (e.g. nodding), carry rich information about engagement but are often overlooked by current models. This project investigates which engagement-related behaviors are most challenging for these models and works toward targeted improvements in their perception of such signals.",
+          "slides": "https://docs.google.com/presentation/d/1auhl7wMhSWRhj0IGVIGFbeLPqH8Eq-1F6-otpltwUkY/edit?usp=sharing"
         },
         {
           "title": "Fire Localization (2.0)",
@@ -67,7 +175,8 @@
             "Barath Raghavan",
             "Xiao Fu"
           ],
-          "description": "Wildfires are increasingly frequent and devastating, yet current detection systems often suffer from high latency and poor coverage in remote regions. Building on the foundation of 'FireLoc: Low-Latency Multi-Modal Wildfire Geolocation' (Raghavan et al.), which demonstrated robust wildfire presence prediction in low-information environments, this project focuses on developing a full-stack pipeline for real-world deployment. The system will integrate low-power hardware installations at potential ignition sites, optimize machine learning inference for environments with limited computational resources, and implement a scalable alert system capable of rapidly notifying authorities upon fire detection. This end-to-end solution aims to enable earlier interventions, minimize wildfire spread, and protect vulnerable ecosystems and communities."
+          "description": "Wildfires are increasingly frequent and devastating, yet current detection systems often suffer from high latency and poor coverage in remote regions. Building on the foundation of 'FireLoc: Low-Latency Multi-Modal Wildfire Geolocation' (Raghavan et al.), which demonstrated robust wildfire presence prediction in low-information environments, this project focuses on developing a full-stack pipeline for real-world deployment. The system will integrate low-power hardware installations at potential ignition sites, optimize machine learning inference for environments with limited computational resources, and implement a scalable alert system capable of rapidly notifying authorities upon fire detection. This end-to-end solution aims to enable earlier interventions, minimize wildfire spread, and protect vulnerable ecosystems and communities.",
+          "slides": "https://docs.google.com/presentation/d/1nx84g-nltHMaFPdZ7hbRWdbo5aO0kICoTsM-Mr3UOto/edit?usp=sharing"
         },
         {
           "title": "Indexing Global Testimonies (2.0)",
@@ -84,7 +193,8 @@
           "advisorAuthors": [
             "Sandra Aguilar"
           ],
-          "description": "The USC Shoah Foundation houses a vast video archive of 58,000 survivor testimonies across 42 languages, preserving the lived experiences of individuals impacted by the Holocaust and other genocides. Traditionally, indexing these testimonies—assigning terms from a curated thesaurus of 72,000 entries to one-minute video segments—has required intensive manual effort. This project aims to automate the indexing process using AI, developing models that analyze transcript data and accurately assign relevant terms to corresponding video segments. By enabling scalable, consistent tagging across the archive, this work will enhance accessibility, deepen historical scholarship, and ensure that these critical stories remain discoverable for future generations."
+          "description": "The USC Shoah Foundation houses a vast video archive of 58,000 survivor testimonies across 42 languages, preserving the lived experiences of individuals impacted by the Holocaust and other genocides. Traditionally, indexing these testimonies—assigning terms from a curated thesaurus of 72,000 entries to one-minute video segments—has required intensive manual effort. This project aims to automate the indexing process using AI, developing models that analyze transcript data and accurately assign relevant terms to corresponding video segments. By enabling scalable, consistent tagging across the archive, this work will enhance accessibility, deepen historical scholarship, and ensure that these critical stories remain discoverable for future generations.",
+          "slides": "https://docs.google.com/presentation/d/1u6G008UXcHSpDwzWng0p-iYQ6vqq69hxf_shiiLYUCk/edit?usp=sharing"
         },
         {
           "title": "Knowledge Graphs for Story Generation (2.0)",
@@ -103,7 +213,27 @@
           "advisorAuthors": [
             "Joel Walsh"
           ],
-          "description": "While large language models (LLMs) have significantly advanced story generation, they often struggle with maintaining long-term coherence, character consistency, and causal structure. To address these limitations, prior work has incorporated knowledge graphs to explicitly model event sequences, entity relationships, and world-building constraints. This project explores a knowledge-graph-driven framework for interactive story generation, where an evolving knowledge graph guides narrative construction in real-time. Users can modify the graph mid-generation, enabling the story to adapt dynamically while preserving logical consistency. Beyond creative writing, this approach enables personalized and supplemental learning by allowing users—especially students—to generate stories tailored to specific educational domains, reinforcing concepts introduced in traditional curricula through narrative exploration and active engagement."
+          "description": "While large language models (LLMs) have significantly advanced story generation, they often struggle with maintaining long-term coherence, character consistency, and causal structure. To address these limitations, prior work has incorporated knowledge graphs to explicitly model event sequences, entity relationships, and world-building constraints. This project explores a knowledge-graph-driven framework for interactive story generation, where an evolving knowledge graph guides narrative construction in real-time. Users can modify the graph mid-generation, enabling the story to adapt dynamically while preserving logical consistency. Beyond creative writing, this approach enables personalized and supplemental learning by allowing users—especially students—to generate stories tailored to specific educational domains, reinforcing concepts introduced in traditional curricula through narrative exploration and active engagement.",
+          "slides": "https://docs.google.com/presentation/d/1sqXWKEDO3IguWBVS3Zem39LkPtJaHEUSP3Bfog9hljM/edit?usp=sharing"
+        },
+        {
+          "title": "Nanopore Signal for Radiation Damage Detection (3.0)",
+          "id": "f25_nanopore",
+          "image": "/images/projects/nanopore.png",
+          "leadAuthors": [
+            "Vidur Mushran"
+          ],
+          "authors": [
+            "Pratyush Jaishanker",
+            "Ryan Nene",
+            "Vayun Mathur"
+          ],
+          "advisorAuthors": [
+            "Aram Modrek",
+            "Khoi Huynh"
+          ],
+          "description": "Assessing radiation exposure and DNA damage in human cells currently relies on methods that lack the ability to provide real-time, quantitative insights into molecular changes. Nanopore sequencing offers a promising approach by enabling high-resolution analysis of DNA and RNA structures through electrical signal detection. However, interpreting nanopore signals for radiation-induced DNA damage remains a complex and underexplored challenge. This project focuses on developing a machine learning-based model to predict radiation exposure levels and detect specific biomarkers of DNA damage, facilitating applications in precision radiotherapy dosing, exposure monitoring in space and nuclear environments, ecological assessments after nuclear incidents, and early cancer prevention through timely intervention.",
+          "slides": "https://docs.google.com/presentation/d/1-06jQ52PZJDK0niO0jx1RL6ukZ-hHOVUrr3n0DwAlDw/edit?usp=sharing"
         }
       ]
     },

@@ -1,15 +1,39 @@
 {
+  "s26_shape": {
+    "displayName": "Shape Representation Learning with Moments",
+    "link": "/projects/f25-s26#s26_shape"
+  },
+  "s26_location": {
+    "displayName": "Value of Location Data",
+    "link": "/projects/f25-s26#s26_location"
+  },
+  "s26_bioindexing": {
+    "displayName": "Bio-Indexing Holocaust Survivor Testimonies",
+    "link": "/projects/f25-s26#s26_bioindexing"
+  },
+  "s26_shadela": {
+    "displayName": "ShadeLA",
+    "link": "/projects/f25-s26#s26_shadela"
+  },
+  "s26_dialog": {
+    "displayName": "Multimodal Dialog Act Classification (2.0)",
+    "link": "/projects/f25-s26#s26_dialog"
+  },
+  "s26_engagement": {
+    "displayName": "VLMs for Engagement (2.0)",
+    "link": "/projects/f25-s26#s26_engagement"
+  },
+  "s26_fire": {
+    "displayName": "Fire Localization (3.0)",
+    "link": "/projects/f25-s26#s26_fire"
+  },
   "f25_dialog": {
-    "displayName": "Multimodal Dialog Act Classification",
+    "displayName": "Multimodal Dialog Act Classification (1.0)",
     "link": "/projects/f25-s26#f25_dialog"
   },
   "f25_engagement": {
-    "displayName": "VLMs for Engagement",
+    "displayName": "VLMs for Engagement (1.0)",
     "link": "/projects/f25-s26#f25_engagement"
-  },
-  "f25_nanopore": {
-    "displayName": "Nanopore (3.0)",
-    "link": "/projects/f25-s26#f25_nanopore"
   },
   "f25_fire": {
     "displayName": "Fire Localization (2.0)",
@@ -22,6 +46,10 @@
   "f25_storygraph": {
     "displayName": "Knowledge Graphs for Story Generation (2.0)",
     "link": "/projects/f25-s26#f25_storygraph"
+  },
+  "f25_nanopore": {
+    "displayName": "Nanopore (3.0)",
+    "link": "/projects/f25-s26#f25_nanopore"
   },
   "s25_reranking": {
     "displayName": "ASR Reranking (3.0)",
